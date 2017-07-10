@@ -1,18 +1,22 @@
-/*!
- * Start Bootstrap - The Big Picture (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 @font-face {
     font-family: 'ProductSans-Regular';
     font-style: normal;
     src: url('../fonts/ProductSans/ProductSans-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'BodoniStd';
+    font-style: normal;
+    src: url('../fonts/BodoniStd.otf');
+}
+
 body {
     font-family: "ProductSans-Regular" !important;
 }
+
+/*.section-headings{*/
+    /*font-family: "BodoniStd" !important;*/
+/*}*/
 
 nav{
     background-color: rgb(102, 191, 215) !important;
@@ -36,8 +40,6 @@ nav{
 .navbar-inverse .navbar-toggle {
      border-color: transparent !important;
 }
-
-
 
 .fp-controlArrow.fp-prev {
     left: 27px !important;
