@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'ProductSans-Regular';
+    font-style: normal;
+    src: url('../fonts/ProductSans/ProductSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ProductSans-Bold';
+    font-style: normal;
+    src: url('../fonts/ProductSans/ProductSans-Bold.ttf');
+}
+
+body,
+input,
+textarea,
+.mbr-company .list-group-text {
+  font-family: 'ProductSans-Regular', sans-serif !important;
+}
+.mbr-footer-content li,
+.mbr-footer .mbr-contacts li {
+  font-family: 'ProductSans-Regular', sans-serif !important;
+}
+.btn,
+.alert,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.mbr-figure .mbr-figure-caption,
+.mbr-gallery-title,
+.mbr-map [data-state-details],
+.mbr-price {
+  font-family: 'ProductSans-Bold', sans-serif !important;
+}
+.mbr-footer-content h1,
+.mbr-footer .mbr-contacts h1,
+.mbr-footer-content h2,
+.mbr-footer .mbr-contacts h2,
+.mbr-footer-content h3,
+.mbr-footer .mbr-contacts h3,
+.mbr-footer-content h4,
+.mbr-footer .mbr-contacts h4,
+.mbr-footer-content p strong,
+.mbr-footer .mbr-contacts p strong,
+.mbr-footer-content strong,
+.mbr-footer .mbr-contacts strong {
+  font-family: 'ProductSans-Bold', sans-serif !important;
+}
+.btn-sm,
+.lead a,
+.lead blockquote,
+.mbr-section-subtitle,
+.mbr-section-hero .mbr-section-lead,
+.mbr-cards .card-subtitle,
+.mbr-testimonial .card-block {
+  font-family: 'ProductSans-Regular', serif !important;
+}
+.mbr-author-name {
+  font-family: 'ProductSans-Regular', sans-serif !important;
+}
+.mbr-author-desc {
+  font-family: 'ProductSans-Regular', serif !important;
+}
+.mbr-plan-title {
+  font-family: 'ProductSans-Regular', sans-serif !important;
+} 
+.mbr-plan-subtitle,
+.mbr-plan-price-desc {
+  font-family: 'ProductSans-Regular', serif !important;
+}
+
+#menu-0 .navbar-caption {
+  color: #ffffff;
+  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-size: 20px;
+}
+
+#menu-0 .link,
+#menu-0 .dropdown-item {
+  color: #ffffff;
+  font-family: 'ProductSans-Regular', sans-serif !important;
+}
+
+#header1-1 .mbr-section-lead B {
+  font-size: 32px;
+  font-family: 'ProductSans-Regular', sans-serif !important;
+}
+#header1-1 .mbr-section-lead SPAN {
+  font-size: 17px;
+  font-family: 'ProductSans-Regular', sans-serif !important;
+}
+#header1-1 .mbr-section-title {
+  font-family: 'ProductSans-Regular', sans-serif !important;
+}
+#header1-1 .mbr-section-lead {
+  font-size: 18px;
+  font-family: 'ProductSans-Regular', sans-serif !important;
+  color: #ffffff;
+}
+#msg-box5-0 H3 {
+  font-family: 'ProductSans-Regular', sans-serif !important;
+  color: #484848;
+  font-size: 46px;
+}
+#msg-box5-0 P {
+  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-size: 17px;
+  color: #484848;
+}
+#msg-box5-5 H3 {
+  font-family: 'ProductSans-Regular', sans-serif !important;
+  color: #484848;
+  font-size: 46px;
+}
+#msg-box5-5 P {
+  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-size: 17px;
+  color: #484848;
+}
+
+#menu-1 .navbar-caption {
+  color: #ffffff;
+  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-size: 20px;
+}
+
+#menu-1 .link,
+#menu-1 .dropdown-item {
+  color: #ffffff;
+  font-family: 'ProductSans-Regular', sans-serif !important;
+}
+
+.trademark{
+  font-size: 8px !important;
+  top: -1.5em !important;
+}
+
+.tagline{
+  font-size: 28px !important;
+}
+
+.contact-us{
+  font-style: normal !important;
+}
+
+.mbr-gallery .mbr-gallery-item {
+    cursor: default !important;
+}
+
+#social-buttons4-9 .mbr-section-title,
+#social-buttons4-9 .btn-social {
+  color: #fff;
+}
+
+@media (max-width: 767px){
+    .mbr-arrow-floating{
+        display: none !important;
+    }
+
+    #header1-1{
+      padding-top: 100px;
+    }
+
+    .brand-desc{
+      zoom: 0.9 !important;
+    }
+
+    #services, #msg-box5-5, #team, #contacts5-7, #social-buttons4-9{
+      zoom: 0.7 !important;
+    }
+}
+
+#msg-box5-5 H3 {
+    color: #000 !important;
+}
+
+
+#msg-box5-5 P {
+    color: rgb(35, 35, 35) !important;
+}
