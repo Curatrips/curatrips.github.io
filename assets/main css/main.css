@@ -10,6 +10,31 @@
     src: url('../fonts/ProductSans/ProductSans-Bold.ttf');
 }
 
+@font-face {
+    font-family: 'VarelaRound-Regular';
+    font-style: normal;
+    src: url('../fonts/varela-round/VarelaRound-Regular.otf');
+}
+
+
+/*@font-face {
+    font-family: 'AvenirLTStd-Book';
+    font-style: normal;
+    src: url('../fonts/Avenir/AvenirLTStd-Book.ttf');
+}
+
+@font-face {
+    font-family: 'AvenirLTStd-Light';
+    font-style: normal;
+    src: url('../fonts/Avenir/AvenirLTStd-Light.otf');
+}
+
+@font-face {
+    font-family: 'AvenirLTStd-Roman';
+    font-style: normal;
+    src: url('../fonts/Avenir/AvenirLTStd-Roman.otf');
+}*/
+
 body,
 input,
 textarea,
@@ -42,7 +67,7 @@ h6,
 .mbr-gallery-title,
 .mbr-map [data-state-details],
 .mbr-price {
-  font-family: 'ProductSans-Bold', sans-serif !important;
+  font-family: 'ProductSans-Regular', sans-serif !important;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -56,7 +81,7 @@ h6,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'ProductSans-Bold', sans-serif !important;
+  font-family: 'VarelaRound-Regular', sans-serif !important;
 }
 .btn-sm,
 .lead a,
@@ -83,7 +108,7 @@ h6,
 
 #menu-0 .navbar-caption {
   color: #ffffff;
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'VarelaRound-Regular', sans-serif !important;
   font-size: 20px;
 }
 
@@ -102,7 +127,7 @@ h6,
   font-family: 'ProductSans-Regular', sans-serif !important;
 }
 #header1-1 .mbr-section-title {
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'VarelaRound-Regular', sans-serif !important;
 }
 #header1-1 .mbr-section-lead {
   font-size: 18px;
@@ -110,7 +135,7 @@ h6,
   color: #ffffff;
 }
 #msg-box5-0 H3 {
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'VarelaRound-Regular', sans-serif !important;
   color: #484848;
   font-size: 46px;
 }
@@ -120,7 +145,7 @@ h6,
   color: #484848;
 }
 #msg-box5-5 H3 {
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'VarelaRound-Regular', sans-serif !important;
   color: #484848;
   font-size: 46px;
 }
@@ -142,6 +167,14 @@ h6,
   font-family: 'ProductSans-Regular', sans-serif !important;
 }
 
+#menu-0 .navbar, #menu-0 .nav-dropdown-sm, #menu-0 .nav-dropdown-sm .link[aria-expanded="true"], #menu-0 .nav-dropdown-sm .dropdown-menu {
+    background: rgba(0, 166, 153, 0.72);
+}
+
+.navbar-dropdown .navbar-logo img {
+    height: 2rem;
+}
+
 .trademark{
   font-size: 8px !important;
   top: -1.5em !important;
@@ -149,6 +182,7 @@ h6,
 
 .tagline{
   font-size: 28px !important;
+  font-family: "VarelaRound-Regular" !important;
 }
 
 .contact-us{
@@ -187,6 +221,9 @@ h6,
     font-size: 48px !important;
 }
 
+#services H3, #form2-0 H3, #social-buttons4-9 H3 {
+  font-family: "VarelaRound-Regular" !important;
+}
 
 #msg-box5-5 P {
     color: rgb(35, 35, 35) !important;
