@@ -168,7 +168,7 @@ h6,
 }
 
 #menu-0 .navbar, #menu-0 .nav-dropdown-sm, #menu-0 .nav-dropdown-sm .link[aria-expanded="true"], #menu-0 .nav-dropdown-sm .dropdown-menu {
-    background: rgba(0, 166, 153, 0.72);
+    background: rgba(0, 166, 153);
 }
 
 .navbar-dropdown .navbar-logo img {
@@ -190,12 +190,20 @@ h6,
 }
 
 .mbr-gallery .mbr-gallery-item {
-    cursor: default !important;
+  cursor: default !important;
 }
 
 #social-buttons4-9 .mbr-section-title,
 #social-buttons4-9 .btn-social {
   color: #fff;
+}
+
+.alert-success {
+  background-color: #00a699;
+}
+
+.mbr-subscribe-dark .form-control {
+  color: #565656;
 }
 
 @media (max-width: 767px){
