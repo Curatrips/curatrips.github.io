@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'ProductSans-Regular';
     font-style: normal;
     src: url('../fonts/ProductSans/ProductSans-Regular.ttf');
@@ -15,9 +15,9 @@
     font-style: normal;
     src: url('../fonts/varela-round/VarelaRound-Regular.otf');
 }
+*/
 
-
-/*@font-face {
+@font-face {
     font-family: 'AvenirLTStd-Book';
     font-style: normal;
     src: url('../fonts/Avenir/AvenirLTStd-Book.ttf');
@@ -33,17 +33,17 @@
     font-family: 'AvenirLTStd-Roman';
     font-style: normal;
     src: url('../fonts/Avenir/AvenirLTStd-Roman.otf');
-}*/
+}
 
 body,
 input,
 textarea,
 .mbr-company .list-group-text {
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Light', sans-serif !important;
 }
 .mbr-footer-content li,
 .mbr-footer .mbr-contacts li {
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Light', sans-serif !important;
 }
 .btn,
 .alert,
@@ -67,7 +67,7 @@ h6,
 .mbr-gallery-title,
 .mbr-map [data-state-details],
 .mbr-price {
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Roman', sans-serif !important;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -81,7 +81,7 @@ h6,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'VarelaRound-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Roman', sans-serif !important;
 }
 .btn-sm,
 .lead a,
@@ -90,20 +90,20 @@ h6,
 .mbr-section-hero .mbr-section-lead,
 .mbr-cards .card-subtitle,
 .mbr-testimonial .card-block {
-  font-family: 'ProductSans-Regular', serif !important;
+  font-family: 'AvenirLTStd-Light', serif !important;
 }
 .mbr-author-name {
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Light', sans-serif !important;
 }
 .mbr-author-desc {
-  font-family: 'ProductSans-Regular', serif !important;
+  font-family: 'AvenirLTStd-Light', serif !important;
 }
 .mbr-plan-title {
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Light', sans-serif !important;
 } 
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
-  font-family: 'ProductSans-Regular', serif !important;
+  font-family: 'AvenirLTStd-Light', serif !important;
 }
 
 #menu-0 .navbar-caption {
@@ -115,56 +115,56 @@ h6,
 #menu-0 .link,
 #menu-0 .dropdown-item {
   color: #ffffff;
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Light', sans-serif !important;
 }
 
 #header1-1 .mbr-section-lead B {
   font-size: 32px;
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Light', sans-serif !important;
 }
 #header1-1 .mbr-section-lead SPAN {
   font-size: 17px;
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Light', sans-serif !important;
 }
 #header1-1 .mbr-section-title {
-  font-family: 'VarelaRound-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Roman', sans-serif !important;
 }
 #header1-1 .mbr-section-lead {
   font-size: 18px;
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Light', sans-serif !important;
   color: #ffffff;
 }
 #msg-box5-0 H3 {
-  font-family: 'VarelaRound-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Roman', sans-serif !important;
   color: #484848;
   font-size: 46px;
 }
 #msg-box5-0 P {
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Light', sans-serif !important;
   font-size: 17px;
   color: #484848;
 }
 #msg-box5-5 H3 {
-  font-family: 'VarelaRound-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Roman', sans-serif !important;
   color: #484848;
   font-size: 46px;
 }
 #msg-box5-5 P {
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Light', sans-serif !important;
   font-size: 17px;
   color: #484848;
 }
 
 #menu-1 .navbar-caption {
   color: #ffffff;
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Light', sans-serif !important;
   font-size: 20px;
 }
 
 #menu-1 .link,
 #menu-1 .dropdown-item {
   color: #ffffff;
-  font-family: 'ProductSans-Regular', sans-serif !important;
+  font-family: 'AvenirLTStd-Light', sans-serif !important;
 }
 
 #menu-0 .navbar, #menu-0 .nav-dropdown-sm, #menu-0 .nav-dropdown-sm .link[aria-expanded="true"], #menu-0 .nav-dropdown-sm .dropdown-menu {
@@ -182,7 +182,7 @@ h6,
 
 .tagline{
   font-size: 28px !important;
-  font-family: "VarelaRound-Regular" !important;
+  font-family: "AvenirLTStd-Roman" !important;
 }
 
 .contact-us{
@@ -231,7 +231,7 @@ h6,
 }
 
 #services H3, #form2-0 H3, #social-buttons4-9 H3 {
-  font-family: "VarelaRound-Regular" !important;
+  font-family: "AvenirLTStd-Roman" !important;
 }
 
 #msg-box5-5 P {
