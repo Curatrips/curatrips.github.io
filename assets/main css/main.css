@@ -9,13 +9,13 @@
     font-style: normal;
     src: url('../fonts/ProductSans/ProductSans-Bold.ttf');
 }
+*/
 
 @font-face {
     font-family: 'VarelaRound-Regular';
     font-style: normal;
     src: url('../fonts/varela-round/VarelaRound-Regular.otf');
 }
-*/
 
 @font-face {
     font-family: 'AvenirLTStd-Book';
@@ -167,9 +167,9 @@ h6,
   font-family: 'AvenirLTStd-Light', sans-serif !important;
 }
 
-#menu-0 .navbar, #menu-0 .nav-dropdown-sm, #menu-0 .nav-dropdown-sm .link[aria-expanded="true"], #menu-0 .nav-dropdown-sm .dropdown-menu {
+/* #menu-0 .navbar, #menu-0 .nav-dropdown-sm, #menu-0 .nav-dropdown-sm .link[aria-expanded="true"], #menu-0 .nav-dropdown-sm .dropdown-menu {
     background: #008489 !important;
-}
+} */
 
 .navbar-dropdown .navbar-logo img {
     height: 2rem;
